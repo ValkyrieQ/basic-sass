@@ -1,9 +1,12 @@
+// Import partial's file, without '_' and extension
+@import 'partial';
+
 $textColor: red;
 $backgroundColor: yellow;
 
 div {
     background: $backgroundColor;
-    color: $textColor;
+    color: $primary-color; // $textColor;
 
     p {
         color: green;
