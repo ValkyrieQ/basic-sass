@@ -4,10 +4,17 @@
 $textColor: red;
 $backgroundColor: yellow;
 
+@mixin boxSize($width, $height) {
+    width: $width;
+    height: $height;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
 div {
     background: $backgroundColor;
     color: $primary-color; // $textColor;
-
+    @include boxSize(300px, 300px);
     p {
         color: green;
         padding: 1rem 2rem;
