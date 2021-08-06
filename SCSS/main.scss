@@ -4,4 +4,15 @@ $backgroundColor: yellow;
 div {
     background: $backgroundColor;
     color: $textColor;
+
+    p {
+        color: green;
+        padding: 1rem 2rem;
+    }
+
+    a {
+        background: skyblue;
+        display: inline-block;
+        padding: 10px 15px;
+    }
 }
