@@ -1,16 +1,29 @@
-div {
+div.main {
   background: yellow;
   color: blue;
   width: 300px;
   height: 300px;
   border: 2px solid black;
   padding: 2rem; }
-  div p {
+  div.main p {
     color: green;
     padding: 1rem 2rem; }
-  div a {
+  div.main a {
     background: skyblue;
     display: inline-block;
     padding: 10px 15px; }
+
+.button-box, .confirm, .cancel {
+  width: 250px;
+  height: 80px;
+  padding: .5rem 1rem;
+  border: 2px solid #333;
+  box-sizing: border-box; }
+
+.confirm {
+  background: green; }
+
+.cancel {
+  background: red; }
 
 /*# sourceMappingURL=main.css.map */
