@@ -26,4 +26,19 @@ div.main {
 .cancel {
   background: red; }
 
+.container {
+  width: 100%; }
+
+.container article {
+  float: left;
+  width: 62.5%;
+  height: 200px;
+  background: red; }
+
+.container aside {
+  float: right;
+  width: 20.8333333333%;
+  height: 200px;
+  background: green; }
+
 /*# sourceMappingURL=main.css.map */
